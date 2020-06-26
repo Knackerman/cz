@@ -1,0 +1,91 @@
+
+.radio-inline
+{
+    margin-left: 30px;
+}
+
+
+
+#btnAddPlayer 
+{
+    float:right;
+}
+
+#gmailTab .tab-content {
+  color: #1c1c1c;
+  background-color: #ccc;
+  padding: 5px 15px;
+}
+#gmailTab .nav-pills > li > a {
+  border-radius: 0;
+  background-color: #eee;
+  background-color: #ccc;
+}
+#gmailTab .nav-pills > li.active > a,
+#gmailTab .nav-pills > li.active > a:focus,
+#gmailTab .nav-pills > li.active > a:hover {
+  border-top: 3px solid #f00;
+}
+@media (max-width: 767px) {
+  .nav-pills > li {
+    float: none;
+  }
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+a.navbar-brand.mr-1 {
+    margin: 0;
+    font-size: 3rem;
+    padding: 0;
+}
+body {
+    font-size: 1.5rem;
+}
+
+.btn {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+/* Column Grids */
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper { width: 980px; margin: 30px auto; position: relative;}
+.counter { background-color: #ffffff; padding: 20px 0; border-radius: 5px;}
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+.other{
+  height: 1500px;
+}

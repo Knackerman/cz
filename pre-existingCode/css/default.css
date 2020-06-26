@@ -1,0 +1,19 @@
+.chessboardArea
+{
+    width:70%;
+    margin-left:100px;
+}
+
+.playerArea
+{
+    height:100%;
+    width:35%;
+    float:right;
+    margin-right:20px;
+}
+
+.timerPosition
+{
+    margin-top:0;
+}
+

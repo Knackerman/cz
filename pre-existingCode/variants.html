@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="description" content="">
+     <meta name="author" content="">
+
+     <title>Variants Curriculum</title>
+
+     <!-- Custom fonts for this template-->
+     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+     <!-- Page level plugin CSS-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+     <script src="https://kit.fontawesome.com/9be4603fa2.js"></script>
+
+     <!-- Custom styles for this template-->
+     <link href="css/sb-admin.css" rel="stylesheet">
+     <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+     <a class="navbar-brand mr-1" href="index.html">Chessercizes</a>
+</nav>
+
+<div id="wrapper">
+
+<!-- Sidebar -->
+<ul class="sidebar navbar-nav">
+     <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">
+               <i class="fas fa-fw fa-tachometer-alt"></i>
+               <span>Dashboard</span>
+          </a>
+     </li>
+     <li class="nav-item">
+          <a class="nav-link" href="variants.html">
+               <i class="fas fa-fw fa-chess-knight"></i>
+               <span>Curriculum</span></a>
+     </li>
+     <li class="nav-item">
+          <a class="nav-link" href="pools.html">
+               <i class="fas fa-fw fa-chess-rook"></i>
+               <span>Pools</span></a>
+     </li>
+     <li class="nav-item">
+          <a class="nav-link" href="player-lobby.html">
+               <i class="fas fa-fw fa-chess-king"></i>
+               <span>Player Lobby</span></a>
+     </li>
+     <li class="nav-item">
+          <a class="nav-link" href="archive.html">
+               <i class="fas fa-fw fa-chess-pawn"></i>
+               <span>Archive</span></a>
+     </li>
+     <li class="nav-item">
+          <a class="nav-link" href="settings.html">
+               <i class="fas fa-cog"></i>
+               <span>Settings</span></a>
+     </li>
+</ul>
+
+<div id="content-wrapper">
+
+<div class="container-fluid">
+     <h2>Cirriculum</h2>
+     <p>Use content below to help teach your kiddos (and perhaps yourself, too!)</p>
+     <hr>
+</div>      
+
+<div class="container m-0">
+     <h1>Fischer Random</h1>
+
+     <div class="row">
+          <div class="col-12 col-xl-1 mb-3 align-self-center justify-content-start">
+               <a href="game.html?gt=random"><button class="btn btn-success" role="button">Play Bot</button></a>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>
+
+     <ul id="myTab" class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" id="#1" data-toggle="tab" href="#1" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+          <li class="nav-item"><a class="nav-link" id="#2" data-toggle="tab" href="#2" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+          <li class="nav-item"><a class="nav-link" id="#3" data-toggle="tab" href="#3" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fa fa-graduation-cap"></i> Teaching Tips</a>
+          </li>
+     </ul>
+
+     <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active" id="1" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>When setting up the board, the pawns are placed as usual, however the
+                    pieces on the back rows are randomly placed. When the random placement
+                    of pieces is decided upon, both sides must be set up in the exact same
+                    way. Besides this the game continues as normal. This allows a regular
+                    game of Chess to begin from an entirely unique setup.</h3>
+          </div>
+          <div class="tab-pane" id="2" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>The pieces on the back ranks are randomly placed. Both sides must be
+                    randomized in the
+                    exact same way. One rule remains
+                    the same: one Bishop must start on a white square and the other Bishop
+                    on a dark
+                    square. The Kings may still castle as
+                    well, regardless of the placement of the Rooks. This looks confusing
+                    at first, but
+                    when castling, the Kings will still
+                    land on the same squares as normal, i.e. the white King will land on
+                    g1 when castling
+                    kingside, or c1 when castling
+                    queenside. The Rooks too will land on their regular spots next to the
+                    King on the
+                    d-file or f-file, depending on which
+                    side the King castles to. All other regular castling rules apply: no
+                    pieces can be
+                    placed between the King and Rook, no
+                    castling through check or out of check, and the King and Rook must not
+                    have moved
+                    before castling.</h3>
+          </div>
+          <div class="tab-pane" id="3" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Though the opening is unique to each Fischer Random game, the same
+                    opening principles
+                    of regular chess still apply. Move
+                    the central Pawns to attack key squares and open up lines of movement
+                    for the Bishops
+                    and Queen. Develop Knights and
+                    Bishops to attack the same squares as the central Pawns. Castle the
+                    King behind a
+                    safe pawn shield, while also bringing
+                    Rooks to open files, or files where Pawns will be traded. If pieces
+                    are not
+                    developed, it's like you don't have them! So
+                    make sure you put them on active squares.
+               </h3>
+          </div>
+     </div>
+</div>
+
+<div class="container m-0 mt-5">
+     <h1>Pawn Wars</h1>
+
+     <div class="row">
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Play Bot</button>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>     
+     
+     <ul id="myTab" class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" id="#4" data-toggle="tab" href="#4" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+          <li class="nav-item"><a class="nav-link" id="#5" data-toggle="tab" href="#5" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+          <li class="nav-item"><a class="nav-link" id="#6" data-toggle="tab" href="#6" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fa fa-graduation-cap"></i> Teaching Tips</a>
+          </li>
+     </ul>
+
+     <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active" id="4" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Pawn wars is playing a pure endgame from the start. Only Pawns play this game. The first player to get a Pawn to the
+               other side is the winner.</h3>
+          </div>
+          <div class="tab-pane" id="5" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Line up all eight pawns on their starting ranks for each player. The first Pawn to the other side of the board wins.
+               Increase difficulty level by adding Kings, playing until checkmate, and/or adding any other combination of pieces to the
+               Pawns such as Knights only or Kings and Rooks.</h3>
+          </div>
+          <div class="tab-pane" id="6" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Coordinating the Pawns is an extremely important skill at any phase of the game. Most beginners will trade Pawns as soon
+               as the opportunity presents itself, without thinking much about it. Instead, prompt your student to consider defending
+               their Pawn, or simply pushing it past a proposed trade. In particular, focus on the ways a Pawn trade will create the
+               ability for other Pawns to run through. For example, if one of your Pawns is blocked head-to-head by one of the
+               opponent’s, seriously consider attacking their Pawn, so that if they, yours will then have an open path to the queening
+               square.
+               The addition of Kings significantly complicates the strategy. At the end of the game the King is the most powerful piece
+               and must be activated. Use the King to attack undefended Pawns, or team up with Pawns to double attack the opponent’s
+               pawns, or escort a Pawn safely to the queen square. If one side has a Queen and King, while the other side has only a
+               King, this is usually an automatic win if you know the pattern. A majority of games are won using this technique,
+               therefore it is traditionally one of the first things taught to new chess students. Practice this pattern in the drills
+               section.
+               </h3>
+          </div>
+     </div>
+</div>
+    
+<div class="container m-0 mt-5 mb-5">
+     <h1>Three Checks</h1>
+
+     <div class="row">
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Play Bot</button>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>
+
+     <ul id="myTab" class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" id="#7" data-toggle="tab" href="#7" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+          <li class="nav-item"><a class="nav-link" id="#8" data-toggle="tab" href="#8" role="tab" aria-controls="profile"
+                    aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+          <li class="nav-item"><a class="nav-link" id="#9" data-toggle="tab" href="#9" role="tab" aria-controls="profile"
+                    aria-selected="false"><i class="fa fa-graduation-cap"></i> Teaching Tips</a>
+          </li>
+     </ul>
+     
+     <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active" id="7" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>The winner of the game is the first person to check the opponent three times. As you can imagine, white holds a
+               significant advantage in this variant.</h3>
+          </div>
+          <div class="tab-pane" id="8" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>The same as regular chess, except the game finishes when one player checks the other three times. The checks do not have
+               to be consecutive. Checkmate also wins the game.</h3>
+          </div>
+          <div class="tab-pane" id="9" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Looking for checks is an extremely important part of the game. If you don't look for checks, you will never find
+               checkmate. Encourage your student to look for checks with every one of their pieces, every turn. Also point out that
+               blocking checks is usually good, but not so great in this game, because it allows the piece of capture the blocker,
+               therefore getting another check.
+               </h3>
+          </div>
+     </div>
+</div>
+
+<div class="container m-0 mt-5 mb-5">
+     <h1>Double Chess</h1>
+
+     <div class="row">
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Play Bot</button>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>
+
+     <ul id="myTab" class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" id="#10" data-toggle="tab" href="#10" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+          <li class="nav-item"><a class="nav-link" id="#11" data-toggle="tab" href="#11" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+          <li class="nav-item"><a class="nav-link" id="#12" data-toggle="tab" href="#12" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fa fa-graduation-cap"></i> Teaching Tips</a>
+          </li>
+     </ul>
+
+     <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active" id="10" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Double Chess is very much like regular Chess, except both sides move twice in a row. This encourages each player to
+               increase their vision and planning beyond just one move.</h3>
+          </div>
+          <div class="tab-pane" id="11" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Both sides get to play two moves in a row on their turn. Either two separate pieces move once, or one piece moves twice.
+               If moving two pieces, both moves may be a check. This results in a double check, which is a highly effective tactic! At
+               the start of a turn, if the King is in check, the first move must stop the check, otherwise it's checkmate.
+               </h3>
+          </div>
+          <div class="tab-pane" id="12" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>At first students are likely to make each move one at a time. As the game progresses, help them to choose a second move
+               before playing their first move. In particular, look for 2-move combos where the first move threatens the opponent's
+               Queen and the second move takes it. Other common 2-move combos include two captures in a row, or capturing a piece and
+               then defending it.
+               </h3>
+          </div>
+     </div>
+</div>
+
+<div class="container m-0 mt-5 mb-5">
+     <h1>Take Me</h1>
+
+     <div class="row">
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Play Bot</button>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>
+
+     <ul id="myTab" class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" id="#13" data-toggle="tab" href="#13" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+          <li class="nav-item"><a class="nav-link" id="#14" data-toggle="tab" href="#14" role="tab" aria-controls="profile"
+                    aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+          <li class="nav-item"><a class="nav-link" id="#15" data-toggle="tab" href="#15" role="tab" aria-controls="profile"
+                    aria-selected="false"><i class="fa fa-graduation-cap"></i> Teaching Tips</a>
+          </li>
+     </ul>
+     
+     <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active" id="13" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>If you can take a piece, you have to. If your opponent can take you, they have to. The winner is the first player to
+               lose all of their pieces. Take me is a game that can immediately shift the attitude of a beginner student. If they are
+               struggling to play well and often loses pieces, they are usually delighted to discover a version of Chess in which
+               losing pieces is a good thing!</h3>
+          </div>
+          <div class="tab-pane" id="14" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>The winner is the first to lose all their pieces. If a player can capture a piece, then they have to capture it. If
+               multiple captures are possible, they may choose the best one. The King CAN be captured. In the event of a stalemate, the
+               winner is the player with the fewest number of pieces.</h3>
+          </div>
+          <div class="tab-pane" id="15" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>Encourage the student to look for unsafe squares. Point out an empty square that is safe, and how it is significantly
+               different from an empty square that is not safe. Notice how the opponent's pieces do not exist only on their own
+               squares, but also have a presence along the squares where they have the ability to move. Imagine the way a computer
+               highlights possible moves for each piece and the shapes those patterns make. The Queen makes a star, the Rook a cross,
+               the Bishop an X, the Knight a circle of squares. By visualizing these move patterns, it makes it much easier to see
+               safe/unsafe squares.
+               </h3>
+          </div>
+     </div>
+</div>
+
+<div class="container m-0 mt-5 mb-5">
+     <h1>No-Castling Chess</h1>
+
+     <div class="row">
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Play Bot</button>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>
+
+     <ul id="myTab" class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" id="#16" data-toggle="tab" href="#16" role="tab"
+                    aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+          <li class="nav-item"><a class="nav-link" id="#17" data-toggle="tab" href="#17" role="tab" aria-controls="profile"
+                    aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+          <li class="nav-item"><a class="nav-link" id="#18" data-toggle="tab" href="#18" role="tab" aria-controls="profile"
+                    aria-selected="false"><i class="fa fa-graduation-cap"></i> Teaching Tips</a>
+          </li>
+     </ul>
+     
+     <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active" id="16" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>TBD</h3>
+          </div>
+          <div class="tab-pane" id="17" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>TBD</h3>
+          </div>
+          <div class="tab-pane" id="18" role="tabpanel" aria-labelledby="profile-tab">
+               <h3>TBD</h3>
+          </div>
+     </div>
+</div>
+
+<div class="container m-0 mb-5">
+     <hr>
+     <h1>Classic Chess</h1>
+
+     <div class="row">
+          <div class="col-12 col-xl-1 mb-3 align-self-center justify-content-start">
+               <a href="game.html?gt=random"><button class="btn btn-success" role="button">Play Bot</button></a>
+          </div>
+          <div class="col-1 mb-3 align-self-center justify-content-start">
+               <button class="btn btn-secondary" href="#" disabled>Local Match</button>
+          </div>
+     </div>
+</div>
+
+<footer class="sticky-footer">     
+     <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+               <span>Copyright © Chessercizes 2019</span>
+          </div>
+     </div>
+</footer>
+
+<script>
+     $('#tab-collapse').tabCollapse();
+</script>
+
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin.min.js"></script>
+<script src="js/bootstrap-tabcollapse.js"></script>
+<script src="js/site-hit-counter.js"></script>
+
+
+</body>
+
+</html>

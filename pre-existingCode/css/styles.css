@@ -1,0 +1,46 @@
+.bottomLeftImageText
+{
+  position: absolute;
+  bottom: 14px;
+  left: 16px;
+  text-align: left;
+}
+
+.bottomRightImageText
+{
+  position: absolute;
+  bottom: 14px;
+  right: 16px;
+}
+
+.childImageFont
+{
+    font-size:18px;
+}
+
+.imagePosition
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.mainImageFont
+{
+    font-size:36px;
+}
+
+.topLeftImageText
+{
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+.topRightImageText
+{
+  position: absolute;
+  top: 14px;
+  right: 16px;
+}
+
